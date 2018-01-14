@@ -1,0 +1,85 @@
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  width: 96%;
+  margin: auto;
+  background-color: #333333;
+  color: #DDDDDD;
+  text-align: center;
+  font-size: 160%;
+}
+
+h1 {
+  padding-bottom: 3%;
+}
+
+section {
+  padding-top: 60px;
+  width: 96%;
+  margin: auto;
+  min-height: 100%;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  font-size: 0.9em;
+}
+
+th, td {
+  text-align: center;
+  padding: 1% 2%;
+}
+
+tr.highlight,
+p.role {
+  background-color: #444444;
+}
+
+ul {
+  list-style: none;
+}
+
+p.bubble {
+  display: inline-block;
+  font-size: 1.5em;
+  width: 40%;
+  margin: 2%;
+  padding: 2%;
+  border-radius: 25px;
+  background-color: #444444;
+}
+
+p.intro {
+  width: 90%;
+  margin: auto;
+  font-size: 1.5em;
+}
+
+div.employer {
+  width: 80%;
+  margin:auto;
+  padding: 2%;
+}
+
+p.description {
+  width: 60%;
+  margin: auto;
+}
+
+p.dates,
+ul.title {
+  display: inline-block;
+  width: 45%;
+  vertical-align:middle;
+  font-style: italic;
+}
+
+p.role {
+  font-size: 1.2em;
+  padding: 1%;
+}
