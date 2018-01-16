@@ -24,12 +24,6 @@ section {
   min-height: 100%;
 }
 
-@media (max-width: 768px) {
-  section {
-    padding-top: 280px;
-  }
-}
-
 table {
   width: 80%;
   margin: auto;
