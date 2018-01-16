@@ -18,6 +18,10 @@ section {
   min-height: 100%;
 }
 
+h2 {
+  margin-top: 10px
+}
+
 table {
   width: 90%;
   margin: auto;
