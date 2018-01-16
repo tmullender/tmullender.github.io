@@ -1,0 +1,94 @@
+html {
+  height: 100%;
+}
+
+body {
+  width: 21cm;
+  color: #333333;
+  text-align: center;
+}
+
+nav {
+  display: none;
+}
+
+section {
+  width: 96%;
+  margin: auto;
+  min-height: 100%;
+}
+
+table {
+  width: 90%;
+  margin: auto;
+}
+
+th, td {
+  text-align: center;
+  padding: 1% 1%;
+}
+
+img {
+  max-width: 90%;
+  margin: auto;
+  height: 10cm;
+  margin-bottom: -1cm;
+}
+
+tr.highlight,
+p.role {
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+}
+
+table li {
+  display: inline-block;
+}
+
+p.bubble {
+  width: auto;
+  margin:inherit;
+}
+
+p.intro {
+  width: 90%;
+  margin: auto;
+  font-size: 1.2em;
+}
+
+div.employer {
+  margin:auto;
+}
+
+p.description,
+p.dates,
+ul.title {
+  display: inline-block;
+  vertical-align:middle;
+  width: 30%;
+  height: 3cm;
+  margin: 0;
+}
+
+p.dates,
+ul.title {
+  font-style: italic;
+}
+
+p.dates {
+  float: left;
+}
+
+p.role {
+  font-size: 1.2em;
+  padding: 1%;
+}
+
+#introduction h2 {
+  position: absolute;
+  top: 0.1cm;
+  margin:0;
+}

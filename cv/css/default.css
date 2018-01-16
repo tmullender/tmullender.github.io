@@ -10,7 +10,7 @@ body {
   background-color: #333333;
   color: #DDDDDD;
   text-align: center;
-  font-size: 160%;
+  font-size: 180%;
 }
 
 h1 {
@@ -24,6 +24,12 @@ section {
   min-height: 100%;
 }
 
+@media (max-width: 768px) {
+  section {
+    padding-top: 280px;
+  }
+}
+
 table {
   width: 80%;
   margin: auto;
@@ -35,6 +41,11 @@ th, td {
   padding: 1% 2%;
 }
 
+img {
+  max-width: 90%;
+  margin:auto;
+}
+
 tr.highlight,
 p.role {
   background-color: #444444;
@@ -44,10 +55,14 @@ ul {
   list-style: none;
 }
 
+button.navbar-right {
+  margin-right: 15px;
+}
+
 p.bubble {
   display: inline-block;
   font-size: 1.5em;
-  width: 40%;
+  max-width: 600px;
   margin: 2%;
   padding: 2%;
   border-radius: 25px;
@@ -75,6 +90,7 @@ p.dates,
 ul.title {
   display: inline-block;
   width: 45%;
+  padding: 2%;
   vertical-align:middle;
   font-style: italic;
 }
@@ -82,4 +98,8 @@ ul.title {
 p.role {
   font-size: 1.2em;
   padding: 1%;
+}
+
+@media print {
+  @import print.css
 }
