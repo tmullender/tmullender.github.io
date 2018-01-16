@@ -32,7 +32,7 @@ table {
 
 th, td {
   text-align: center;
-  padding: 1% 2%;
+  padding: 1% 1%;
 }
 
 img {
@@ -94,6 +94,8 @@ p.role {
   padding: 1%;
 }
 
-@media print {
-  @import print.css
+@media (max-width: 768px) {
+  div.employer {
+    width: 90%;
+  }
 }
