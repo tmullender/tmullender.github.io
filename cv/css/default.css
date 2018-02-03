@@ -156,6 +156,7 @@ img.icon {
     width: 95%;
     margin: auto;
   }
+
   div.left {
     display: block;
     float: none;
@@ -176,5 +177,9 @@ img.icon {
     overflow-y: auto;
     padding: 3%;
     width:100%;
+  }
+
+  h1.title {
+    font-size: 2em;
   }
 }
