@@ -172,4 +172,19 @@ img.icon {
   h1.title {
     font-size: 2em;
   }
+
+  .bullet img {
+    border-radius: 15px;
+    height:  60px;
+    width: 60px;
+    flex: 0 0 60px;
+  }
+
+  .bullet p {
+    margin: 5% 0px;
+  }
+
+  #qualifications .right {
+    overflow-x: auto;
+  }
 }
