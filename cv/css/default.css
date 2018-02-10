@@ -1,10 +1,5 @@
-html {
-  height: 100%;
-}
-
 body {
   position: relative;
-  height: 100%;
   background-color: #333333;
   color: #DDDDDD;
   text-align: center;
@@ -14,12 +9,7 @@ body {
 
 h1 {
   padding-bottom: 3%;
-}
-
-section {
-  padding-top: 60px;
-  min-height: 100%;
-  vertical-align: middle;
+  color: #885522;
 }
 
 table {
@@ -49,39 +39,40 @@ ul {
   background-color: #303030;
 }
 
-
 button.navbar-right {
   margin-right: 15px;
 }
 
+div.content {
+  padding: 50px 0px;
+}
+
+div.container {
+  display: flex;
+  min-width: 80%;
+}
+
 div.left {
   display: inline-block;
-  float: left;
-  width: 30%;
+  width: 25%;
   text-align: right;
-  padding: 3%;
+  padding-right: 1%;
+  padding-top: 70px;
+  min-width:250px;
 }
 
 div.right {
   display: inline-block;
-  float: right;
-  width: 70%;
+  width: 75%;
   padding: 3%;
-
+  padding-top: 70px;
 }
 
-div.right::-webkit-scrollbar {
-  width: 0px;
-  background: transparent;
-}
-
-div.bubble {
+div.bullet {
   font-size: 1.4em;
-  width: 45%;
-  display: inline-block;
-  min-height: 30vh;
-  vertical-align: top;
-  padding: 2%;
+  text-align:left;
+  display: flex;
+  align-items: center;
 }
 
 div.employer {
@@ -97,13 +88,15 @@ p.description {
   margin: auto;
 }
 
-.bubble img {
+.bullet img {
   background-color: #777777;
   border-radius: 25px;
   height:  100px;
   margin: 2%;
   padding: 5px;
   width: 100px;
+  display: inline;
+  flex: 0 0 100px;
 }
 
 p.dates,
@@ -121,34 +114,19 @@ p.role {
 }
 
 .employer h2 {
-    text-align: left;
-}
-
-#main div {
-  display: table;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #885522;
 }
 
 h1.title {
-  display: table-cell;
-  vertical-align: middle;
   font-size: 5em;
 }
 
 img.icon {
   height: 180px;
   width: 180px;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-@media (min-width: 769px) {
-  div.left {
-    height: 100vh;
-  }
-  div.right {
-    height: 100vh;
-    overflow-y: scroll;
-  }
 }
 
 @media (max-width: 768px) {
@@ -157,13 +135,24 @@ img.icon {
     margin: auto;
   }
 
+  section {
+    padding-top: 70px;
+  }
+
+  div.content {
+    padding: 0px;
+  }
+
+  div.container {
+    display: block;
+  }
+
   div.left {
     display: block;
-    float: none;
     text-align: center;
     padding: 3%;
-    height: fit-content;
     width: 100%;
+    background-color: #303030;
   }
 
   img.icon {
@@ -172,11 +161,12 @@ img.icon {
 
   div.right {
     display: block;
-    float: none;
-    min-height: 100vh;
-    overflow-y: auto;
     padding: 3%;
     width:100%;
+  }
+
+  .even .right {
+    background-color: #333333;
   }
 
   h1.title {

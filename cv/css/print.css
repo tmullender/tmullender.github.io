@@ -20,7 +20,9 @@ section {
 }
 
 h2 {
-  margin-top: 10px
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 30px;
 }
 
 table {
@@ -33,7 +35,7 @@ th, td {
   padding: 1% 1%;
 }
 
-img {
+img.prominent {
   max-width: 90%;
   margin: auto;
   height: 10cm;
@@ -53,9 +55,8 @@ table li {
   display: inline-block;
 }
 
-p.bubble {
-  width: auto;
-  margin:inherit;
+.bullet p {
+  margin:0px;
 }
 
 p.intro {
@@ -92,8 +93,13 @@ p.role {
   padding: 1%;
 }
 
+p.description,
+p.role {
+  text-align: justify;
+}
+
 #introduction .left,
-.bubble img,
+.bullet img,
 img.icon {
   display: none;
 }
