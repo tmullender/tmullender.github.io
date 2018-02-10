@@ -130,11 +130,6 @@ img.icon {
 }
 
 @media (max-width: 768px) {
-  body {
-    width: 95%;
-    margin: auto;
-  }
-
   section {
     padding-top: 70px;
   }
