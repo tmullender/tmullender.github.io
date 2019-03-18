@@ -1,0 +1,95 @@
+body {
+  position: relative;
+  background-color: #EEEEEE;
+  color: #666666;
+  text-align: center;
+  font-size: 180%;
+  font-family: 'Open+Sans', sans-serif;
+  font-weight: 300;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #880000
+}
+
+section {
+  width: 96%;
+  margin: auto;
+}
+
+h1 {
+  padding-bottom: 3%;
+  color: #880000;
+}
+
+h2 {
+  text-align: left;
+  padding-left: 5%;
+  margin: 5px;
+}
+
+p {
+  text-align: justify;
+}
+
+div.intro {
+  width: 96%;
+  margin: auto;
+}
+
+img {
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  height: 80px;
+  padding: 5px;
+  vertical-align: middle;
+  width: 80px;
+}
+
+twitter-widget {
+  margin: auto;
+}
+
+img.unavailable {
+  opacity: 0.1;
+}
+
+.img-beer {
+  content: url(../images/beer.png);
+}
+
+.img-bike {
+  content: url(../images/bike.png);
+}
+
+.img-no-veg {
+  content: url(../images/no-veg.png);
+}
+
+.img-shower {
+  content: url(../images/shower.png);
+}
+
+.img-wifi {
+  content: url(../images/wifi.png);
+}
+
+.accomodation span {
+  padding-right: 5%;
+}
+
+span.date {
+  color: #880000;
+}
+
+span.overview {
+  font-size: 1.4em;
+  font-weight: 500;
+
+}
+
+
+@media (max-width: 768px) {
+
+}
