@@ -38,6 +38,15 @@ div.intro {
   margin: auto;
 }
 
+div.route, div.tweet {
+  display: inline-block;
+  vertical-align: top;
+}
+
+div.accomodation {
+  padding-top: 1%;
+}
+
 img {
   background-color: #FFFFFF;
   border-radius: 15px;
