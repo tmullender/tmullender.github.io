@@ -47,6 +47,10 @@ div.accomodation {
   padding-top: 1%;
 }
 
+div.footnote {
+  font-size: 0.6em;
+}
+
 img {
   background-color: #FFFFFF;
   border-radius: 15px;
@@ -101,7 +105,6 @@ span.date {
 span.overview {
   font-size: 1.4em;
   font-weight: 500;
-
 }
 
 
