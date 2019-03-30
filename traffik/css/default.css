@@ -112,14 +112,18 @@ span.overview {
     height: 500;
 }
 
-.youtube {
-    width: 50%;
-    min-width: 480px;
+.video {
+    width: 90%;
+    max-width: 768px;
     margin: auto;
+}
+
+.youtube {
+    width: 100%;
     background-color: #000;
     margin-bottom: 30px;
     position: relative;
-    padding-top: 28.125%;
+    padding-top: 56.25%;
     overflow: hidden;
     cursor: pointer;
 }
