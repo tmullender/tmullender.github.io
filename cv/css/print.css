@@ -7,6 +7,7 @@ body {
   color: #333333;
   text-align: center;
   font-family: 'Open+Sans', sans-serif;
+  font-size: 140%;
 }
 
 nav {
@@ -19,10 +20,17 @@ section {
   min-height: 100%;
 }
 
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 h2 {
-  margin-top: 10px;
+  margin-top: 5px;
   text-align: left;
   margin-left: 1%;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 table {
@@ -33,6 +41,10 @@ table {
 th, td {
   text-align: center;
   padding: 1% 1%;
+}
+
+p.strap {
+  display: none;
 }
 
 img.prominent {
